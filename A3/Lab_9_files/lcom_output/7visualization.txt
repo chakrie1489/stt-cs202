@@ -1,0 +1,85 @@
+### Class: Frame
+        | Java Code                                                                     | LCOM Values     |
+        |-------------------------------------------------------------------------------|-----------------|
+        | ```java                                                                       | LCOM1: 32.0     |
+        | package carDealership;                                                        | LCOM2: 28.0     |
+        | public class Frame extends JFrame implements ActionListener {                 | LCOM3: 8.0      |
+        |     private Container con;                                                    | LCOM4: 3.0      |
+        |     private JButton jbutton1, jbutton2, jbutton3;                             | LCOM5: 0.925    |
+        |     public Frame() {                                                          | YALCOM: 0.0     |
+        |         jf1 = new JFrame();                                                   |                 |
+        |         con = new Container();                                                |                 |
+        |         jbutton1 = new JButton("Display all");                                |                 |
+        |         jbutton2 = new JButton("Add a vehicle");                              |                 |
+        |         jbutton3 = new JButton("Sell a vehicle");                             |                 |
+        |     }                                                                         |                 |
+        |     public void actionPerformed(ActionEvent e) {                              |                 |
+        |         if (e.getSource() == jbutton1) displayInventory();                    |                 |
+        |     }                                                                         |                 |
+        | }                                                                             |                 |
+
+### Class: Vehicle
+        | Java Code                                                                     | LCOM Values     |
+        |-------------------------------------------------------------------------------|-----------------|
+        | ```java                                                                       | LCOM1: 76.0     |
+        | package carDealership;                                                        | LCOM2: 47.0     |
+        | public abstract class Vehicle {                                               | LCOM3: 2.0      |
+        |     private String make;                                                      | LCOM4: 2.0      |
+        |     private String model;                                                     | LCOM5: 0.798    |
+        |     public Vehicle(String make, String model) {                               | YALCOM: 0.133   |
+        |         this.make = make;                                                     |                 |
+        |         this.model = model;                                                   |                 |
+        |     }                                                                         |                 |
+        |     public String getMake() { return make; }                                  |                 |
+        |     public String getModel() { return model; }                                |                 |
+        | }                                                                             |                 |
+
+### Class: VehicleMenu
+        | Java Code                                                                     | LCOM Values     |
+        |-------------------------------------------------------------------------------|-----------------|
+        | ```java                                                                       | LCOM1: 5.0      |
+        | package carDealership;                                                        | LCOM2: 4.0      |
+        | public class VehicleMenu extends JFrame implements ActionListener {           | LCOM3: 3.0      |
+        |     private JButton carButton, motorcycleButton;                              | LCOM4: 1.0      |
+        |     public VehicleMenu() {                                                    | LCOM5: 0.778    |
+        |         carButton = new JButton("Add Car");                                   | YALCOM: 0.0     |
+        |         motorcycleButton = new JButton("Add Motorcycle");                     |                 |
+        |     }                                                                         |                 |
+        |     public void actionPerformed(ActionEvent e) {                              |                 |
+        |         if (e.getSource() == carButton) addCarMenu();                         |                 |
+        |     }                                                                         |                 |
+        | }                                                                             |                 |
+
+### Class: ImageAnimation
+        | Java Code                                                                     | LCOM Values     |
+        |-------------------------------------------------------------------------------|-----------------|
+        | ```java                                                                       | LCOM1: 9.0      |
+        | package carDealership;                                                        | LCOM2: 0.0      |
+        | public class ImageAnimation extends JPanel implements ActionListener {        | LCOM3: 1.0      |
+        |     private int xPos, yPos, xVelocity;                                        | LCOM4: 1.0      |
+        |     private Image image;                                                      | LCOM5: 0.762    |
+        |     public ImageAnimation() {                                                 | YALCOM: 0.0     |
+        |         loadImage();                                                          |                 |
+        |         timer = new Timer(3, this);                                           |                 |
+        |     }                                                                         |                 |
+        |     public void actionPerformed(ActionEvent e) {                              |                 |
+        |         xPos -= xVelocity;                                                    |                 |
+        |         repaint();                                                            |                 |
+        |     }                                                                         |                 |
+        | }                                                                             |                 |
+
+### Class: Sale
+        | Java Code                                                                     | LCOM Values     |
+        |-------------------------------------------------------------------------------|-----------------|
+        | ```java                                                                       | LCOM1: 24.0     |
+        | package carDealership;                                                        | LCOM2: 12.0     |
+        | public class Sale implements Serializable {                                   | LCOM3: 1.0      |
+        |     private Vehicle vehicle;                                                  | LCOM4: 1.0      |
+        |     private String buyerName, buyerContact;                                   | LCOM5: 0.75     |
+        |     public Sale(Vehicle vehicle, String buyerName, String buyerContact) {     | YALCOM: 0.0     |
+        |         this.vehicle = vehicle;                                               |                 |
+        |         this.buyerName = buyerName;                                           |                 |
+        |         this.buyerContact = buyerContact;                                     |                 |
+        |     }                                                                         |                 |
+        |     public Vehicle getVehicle() { return vehicle; }                           |                 |
+        | }                                                                             |                 |

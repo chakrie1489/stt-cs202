@@ -1,0 +1,12 @@
+Project Name,Package Name,Type Name,LCOM1,LCOM2,LCOM3,LCOM4,LCOM5,YALCOM
+carDealership,carDealership,FirstLaunchPage,0.0,0.0,1.0,1.0,0.6000000000000001,0.0
+carDealership,carDealership,Frame,32.0,28.0,8.0,3.0,0.925,0.0
+carDealership,carDealership,Dealership,61.0,0.0,1.0,1.0,0.6857142857142857,0.0
+carDealership,carDealership,Car,0.0,0.0,1.0,1.0,-0.0,0.0
+carDealership,carDealership,VehicleMenu,5.0,4.0,3.0,1.0,0.7777777777777777,0.0
+carDealership,carDealership,IllegalCapacityException,0.0,0.0,1.0,1.0,0.0,0.0
+carDealership,carDealership,Main,91.0,0.0,14.0,10.0,0.2692307692307692,0.0
+carDealership,carDealership,Motorcycle,0.0,0.0,1.0,1.0,-0.0,0.0
+carDealership,carDealership,ImageAnimation,9.0,0.0,1.0,1.0,0.7619047619047619,0.0
+carDealership,carDealership,Vehicle,76.0,47.0,2.0,2.0,0.7976190476190476,0.13333333333333333
+carDealership,carDealership,Sale,24.0,12.0,1.0,1.0,0.75,0.0
