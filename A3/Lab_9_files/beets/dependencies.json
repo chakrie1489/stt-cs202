@@ -1,0 +1,662 @@
+{
+    "PIL": {
+        "bacon": 2,
+        "imported_by": [
+            "PIL",
+            "PIL.Image",
+            "PIL.PngImagePlugin",
+            "beets.util.artresizer"
+        ],
+        "imports": [
+            "PIL"
+        ],
+        "name": "PIL",
+        "path": "/home/pakambo/miniconda3/envs/stt/lib/python3.10/site-packages/PIL/__init__.py"
+    },
+    "PIL.Image": {
+        "bacon": 2,
+        "imported_by": [
+            "PIL.PngImagePlugin",
+            "beets.util.artresizer"
+        ],
+        "imports": [
+            "PIL",
+            "PIL.PngImagePlugin"
+        ],
+        "name": "PIL.Image",
+        "path": "/home/pakambo/miniconda3/envs/stt/lib/python3.10/site-packages/PIL/Image.py"
+    },
+    "PIL.PngImagePlugin": {
+        "bacon": 2,
+        "imported_by": [
+            "PIL.Image",
+            "beets.util.artresizer"
+        ],
+        "imports": [
+            "PIL",
+            "PIL.Image"
+        ],
+        "name": "PIL.PngImagePlugin",
+        "path": "/home/pakambo/miniconda3/envs/stt/lib/python3.10/site-packages/PIL/PngImagePlugin.py"
+    },
+    "__main__": {
+        "bacon": 0,
+        "imports": [
+            "beets",
+            "beets.__main__",
+            "beets.art",
+            "beets.autotag",
+            "beets.autotag.hooks",
+            "beets.autotag.match",
+            "beets.autotag.mb",
+            "beets.dbcore",
+            "beets.dbcore.db",
+            "beets.dbcore.query",
+            "beets.dbcore.queryparse",
+            "beets.dbcore.types",
+            "beets.importer",
+            "beets.library",
+            "beets.logging",
+            "beets.mediafile",
+            "beets.plugins",
+            "beets.random",
+            "beets.test",
+            "beets.test._common",
+            "beets.test.helper",
+            "beets.ui",
+            "beets.ui.commands",
+            "beets.util",
+            "beets.util.artresizer",
+            "beets.util.bluelet",
+            "beets.util.functemplate",
+            "beets.util.hidden",
+            "beets.util.id_extractors",
+            "beets.util.m3u",
+            "beets.util.pipeline",
+            "beets.vfs"
+        ],
+        "name": "__main__",
+        "path": null
+    },
+    "beets": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "beets.art",
+            "beets.autotag",
+            "beets.autotag.hooks",
+            "beets.autotag.match",
+            "beets.autotag.mb",
+            "beets.dbcore.db",
+            "beets.dbcore.query",
+            "beets.dbcore.queryparse",
+            "beets.dbcore.types",
+            "beets.importer",
+            "beets.library",
+            "beets.plugins",
+            "beets.test._common",
+            "beets.test.helper",
+            "beets.ui",
+            "beets.ui.commands",
+            "beets.util",
+            "beets.util.artresizer",
+            "beets.util.m3u",
+            "beets.vfs"
+        ],
+        "name": "beets",
+        "path": null
+    },
+    "beets.__main__": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "beets.ui"
+        ],
+        "name": "beets.__main__",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/__main__.py"
+    },
+    "beets.art": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "beets",
+            "beets.util",
+            "beets.util.artresizer"
+        ],
+        "name": "beets.art",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/art.py"
+    },
+    "beets.autotag": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "beets.autotag.hooks",
+            "beets.autotag.match",
+            "beets.autotag.mb",
+            "beets.importer",
+            "beets.plugins",
+            "beets.test.helper",
+            "beets.ui",
+            "beets.ui.commands"
+        ],
+        "imports": [
+            "beets",
+            "beets.autotag.hooks",
+            "beets.autotag.match",
+            "beets.library",
+            "beets.logging",
+            "beets.util"
+        ],
+        "name": "beets.autotag",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/autotag/__init__.py"
+    },
+    "beets.autotag.hooks": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "beets.autotag",
+            "beets.autotag.match",
+            "beets.autotag.mb",
+            "beets.plugins",
+            "beets.test.helper",
+            "beets.ui.commands"
+        ],
+        "imports": [
+            "beets",
+            "beets.autotag",
+            "beets.autotag.mb",
+            "beets.library",
+            "beets.logging",
+            "beets.plugins",
+            "beets.util"
+        ],
+        "name": "beets.autotag.hooks",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/autotag/hooks.py"
+    },
+    "beets.autotag.match": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "beets.autotag"
+        ],
+        "imports": [
+            "beets",
+            "beets.autotag",
+            "beets.autotag.hooks",
+            "beets.library",
+            "beets.logging",
+            "beets.plugins",
+            "beets.util",
+            "numpy"
+        ],
+        "name": "beets.autotag.match",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/autotag/match.py"
+    },
+    "beets.autotag.mb": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "beets.autotag.hooks",
+            "beets.ui"
+        ],
+        "imports": [
+            "beets",
+            "beets.autotag",
+            "beets.autotag.hooks",
+            "beets.logging",
+            "beets.plugins",
+            "beets.util",
+            "beets.util.id_extractors"
+        ],
+        "name": "beets.autotag.mb",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/autotag/mb.py"
+    },
+    "beets.dbcore": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "beets.dbcore.db",
+            "beets.dbcore.query",
+            "beets.dbcore.queryparse",
+            "beets.importer",
+            "beets.library",
+            "beets.ui"
+        ],
+        "imports": [
+            "beets.dbcore.db",
+            "beets.dbcore.query",
+            "beets.dbcore.queryparse",
+            "beets.dbcore.types"
+        ],
+        "name": "beets.dbcore",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/dbcore/__init__.py"
+    },
+    "beets.dbcore.db": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "beets.dbcore",
+            "beets.dbcore.query",
+            "beets.ui"
+        ],
+        "imports": [
+            "beets",
+            "beets.dbcore",
+            "beets.dbcore.query",
+            "beets.dbcore.types",
+            "beets.util",
+            "beets.util.functemplate"
+        ],
+        "name": "beets.dbcore.db",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/dbcore/db.py"
+    },
+    "beets.dbcore.query": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "beets.dbcore",
+            "beets.dbcore.db",
+            "beets.dbcore.queryparse",
+            "beets.dbcore.types",
+            "beets.library",
+            "beets.ui"
+        ],
+        "imports": [
+            "beets",
+            "beets.dbcore",
+            "beets.dbcore.db",
+            "beets.util"
+        ],
+        "name": "beets.dbcore.query",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/dbcore/query.py"
+    },
+    "beets.dbcore.queryparse": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "beets.dbcore"
+        ],
+        "imports": [
+            "beets",
+            "beets.dbcore",
+            "beets.dbcore.query",
+            "beets.library"
+        ],
+        "name": "beets.dbcore.queryparse",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/dbcore/queryparse.py"
+    },
+    "beets.dbcore.types": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "beets.dbcore",
+            "beets.dbcore.db",
+            "beets.library"
+        ],
+        "imports": [
+            "beets",
+            "beets.dbcore.query",
+            "beets.util"
+        ],
+        "name": "beets.dbcore.types",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/dbcore/types.py"
+    },
+    "beets.importer": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "beets.test._common",
+            "beets.test.helper",
+            "beets.ui.commands"
+        ],
+        "imports": [
+            "beets",
+            "beets.autotag",
+            "beets.dbcore",
+            "beets.library",
+            "beets.logging",
+            "beets.plugins",
+            "beets.util",
+            "beets.util.pipeline"
+        ],
+        "name": "beets.importer",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/importer.py"
+    },
+    "beets.library": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "beets.autotag",
+            "beets.autotag.hooks",
+            "beets.autotag.match",
+            "beets.dbcore.queryparse",
+            "beets.importer",
+            "beets.plugins",
+            "beets.test._common",
+            "beets.test.helper",
+            "beets.ui",
+            "beets.ui.commands"
+        ],
+        "imports": [
+            "beets",
+            "beets.dbcore",
+            "beets.dbcore.query",
+            "beets.dbcore.types",
+            "beets.logging",
+            "beets.plugins",
+            "beets.util",
+            "beets.util.functemplate"
+        ],
+        "name": "beets.library",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/library.py"
+    },
+    "beets.logging": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "beets.autotag",
+            "beets.autotag.hooks",
+            "beets.autotag.match",
+            "beets.autotag.mb",
+            "beets.importer",
+            "beets.library",
+            "beets.plugins",
+            "beets.test._common",
+            "beets.test.helper",
+            "beets.ui",
+            "beets.ui.commands",
+            "beets.util.artresizer"
+        ],
+        "name": "beets.logging",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/logging.py"
+    },
+    "beets.mediafile": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "beets.mediafile",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/mediafile.py"
+    },
+    "beets.plugins": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "beets.autotag.hooks",
+            "beets.autotag.match",
+            "beets.autotag.mb",
+            "beets.importer",
+            "beets.library",
+            "beets.test.helper",
+            "beets.ui",
+            "beets.ui.commands"
+        ],
+        "imports": [
+            "beets",
+            "beets.autotag",
+            "beets.autotag.hooks",
+            "beets.library",
+            "beets.logging",
+            "beets.util"
+        ],
+        "name": "beets.plugins",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/plugins.py"
+    },
+    "beets.random": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "beets.random",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/random.py"
+    },
+    "beets.test": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "beets.test.helper"
+        ],
+        "name": "beets.test",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/test/__init__.py"
+    },
+    "beets.test._common": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "beets.test.helper"
+        ],
+        "imports": [
+            "beets",
+            "beets.importer",
+            "beets.library",
+            "beets.logging",
+            "beets.ui",
+            "beets.ui.commands",
+            "beets.util"
+        ],
+        "name": "beets.test._common",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/test/_common.py"
+    },
+    "beets.test.helper": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "beets",
+            "beets.autotag",
+            "beets.autotag.hooks",
+            "beets.importer",
+            "beets.library",
+            "beets.logging",
+            "beets.plugins",
+            "beets.test",
+            "beets.test._common",
+            "beets.ui",
+            "beets.ui.commands",
+            "beets.util"
+        ],
+        "name": "beets.test.helper",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/test/helper.py"
+    },
+    "beets.ui": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "beets.__main__",
+            "beets.test._common",
+            "beets.test.helper",
+            "beets.ui",
+            "beets.ui.commands"
+        ],
+        "imports": [
+            "beets",
+            "beets.autotag",
+            "beets.autotag.mb",
+            "beets.dbcore",
+            "beets.dbcore.db",
+            "beets.dbcore.query",
+            "beets.library",
+            "beets.logging",
+            "beets.plugins",
+            "beets.ui",
+            "beets.ui.commands",
+            "beets.util",
+            "beets.util.functemplate"
+        ],
+        "name": "beets.ui",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/ui/__init__.py"
+    },
+    "beets.ui.commands": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "beets.test._common",
+            "beets.test.helper",
+            "beets.ui"
+        ],
+        "imports": [
+            "beets",
+            "beets.autotag",
+            "beets.autotag.hooks",
+            "beets.importer",
+            "beets.library",
+            "beets.logging",
+            "beets.plugins",
+            "beets.ui",
+            "beets.util",
+            "beets.util.functemplate"
+        ],
+        "name": "beets.ui.commands",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/ui/commands.py"
+    },
+    "beets.util": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "beets.art",
+            "beets.autotag",
+            "beets.autotag.hooks",
+            "beets.autotag.match",
+            "beets.autotag.mb",
+            "beets.dbcore.db",
+            "beets.dbcore.query",
+            "beets.dbcore.types",
+            "beets.importer",
+            "beets.library",
+            "beets.plugins",
+            "beets.test._common",
+            "beets.test.helper",
+            "beets.ui",
+            "beets.ui.commands",
+            "beets.util",
+            "beets.util.artresizer",
+            "beets.util.m3u",
+            "beets.vfs"
+        ],
+        "imports": [
+            "beets",
+            "beets.util",
+            "beets.util.hidden",
+            "typing_extensions"
+        ],
+        "name": "beets.util",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/util/__init__.py"
+    },
+    "beets.util.artresizer": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "beets.art"
+        ],
+        "imports": [
+            "PIL",
+            "PIL.Image",
+            "PIL.PngImagePlugin",
+            "beets",
+            "beets.logging",
+            "beets.util"
+        ],
+        "name": "beets.util.artresizer",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/util/artresizer.py"
+    },
+    "beets.util.bluelet": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "beets.util.bluelet",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/util/bluelet.py"
+    },
+    "beets.util.functemplate": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "beets.dbcore.db",
+            "beets.library",
+            "beets.ui",
+            "beets.ui.commands"
+        ],
+        "name": "beets.util.functemplate",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/util/functemplate.py"
+    },
+    "beets.util.hidden": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "beets.util"
+        ],
+        "name": "beets.util.hidden",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/util/hidden.py"
+    },
+    "beets.util.id_extractors": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "beets.autotag.mb"
+        ],
+        "name": "beets.util.id_extractors",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/util/id_extractors.py"
+    },
+    "beets.util.m3u": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "beets",
+            "beets.util"
+        ],
+        "name": "beets.util.m3u",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/util/m3u.py"
+    },
+    "beets.util.pipeline": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "beets.importer"
+        ],
+        "imports": [
+            "typing_extensions"
+        ],
+        "name": "beets.util.pipeline",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/util/pipeline.py"
+    },
+    "beets.vfs": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "beets",
+            "beets.util"
+        ],
+        "name": "beets.vfs",
+        "path": "/home/pakambo/Documents/6th sem/cse202/lab9/beets/beets/vfs.py"
+    },
+    "numpy": {
+        "bacon": 2,
+        "imported_by": [
+            "beets.autotag.match",
+            "numpy"
+        ],
+        "imports": [
+            "numpy"
+        ],
+        "name": "numpy",
+        "path": "/home/pakambo/miniconda3/envs/stt/lib/python3.10/site-packages/numpy/__init__.py"
+    },
+    "typing_extensions": {
+        "bacon": 2,
+        "imported_by": [
+            "beets.util",
+            "beets.util.pipeline"
+        ],
+        "name": "typing_extensions",
+        "path": "/home/pakambo/miniconda3/envs/stt/lib/python3.10/site-packages/typing_extensions.py"
+    }
+}

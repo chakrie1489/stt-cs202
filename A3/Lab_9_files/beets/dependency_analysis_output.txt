@@ -1,0 +1,45 @@
+=== Core Module Identified: beets ===
+Imported by 21 modules. Changes here may affect:
+beets.util.m3u
+beets.dbcore.db
+beets.autotag.mb
+beets.util
+beets.importer
+beets.art
+__main__
+beets.test.helper
+beets.dbcore.query
+beets.autotag.match
+beets.autotag.hooks
+beets.test._common
+beets.ui.commands
+beets.autotag
+beets.util.artresizer
+beets.dbcore.types
+beets.__main__
+beets.dbcore.queryparse
+beets.ui
+beets.vfs
+beets.dbcore
+beets.plugins
+beets.library
+
+=== High-Risk Modules (If Modified, May Break the System) ===
+__main__
+beets.autotag
+beets.autotag.hooks
+beets.autotag.match
+beets.autotag.mb
+beets.dbcore
+beets.dbcore.db
+beets.dbcore.query
+beets.dbcore.queryparse
+beets.importer
+beets.library
+beets.plugins
+beets.test._common
+beets.test.helper
+beets.ui
+beets.ui.commands
+beets.util
+beets.util.artresizer

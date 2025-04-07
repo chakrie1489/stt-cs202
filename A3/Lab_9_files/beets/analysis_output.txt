@@ -1,0 +1,169 @@
+
+=== Highly Coupled Modules and Their Dependencies ===
+beets.util.functemplate: Fan-In = 5, Fan-Out = 0
+  Depends on: []
+  Depended on by: ['__main__', 'beets.dbcore.db', 'beets.library', 'beets.ui', 'beets.ui.commands']
+beets.test.helper: Fan-In = 1, Fan-Out = 12
+  Depends on: ['beets', 'beets.autotag', 'beets.autotag.hooks', 'beets.importer', 'beets.library', 'beets.logging', 'beets.plugins', 'beets.test', 'beets.test._common', 'beets.ui', 'beets.ui.commands', 'beets.util']
+  Depended on by: ['__main__']
+beets.test._common: Fan-In = 2, Fan-Out = 7
+  Depends on: ['beets', 'beets.importer', 'beets.library', 'beets.logging', 'beets.ui', 'beets.ui.commands', 'beets.util']
+  Depended on by: ['__main__', 'beets.test.helper']
+beets.autotag: Fan-In = 9, Fan-Out = 6
+  Depends on: ['beets', 'beets.autotag.hooks', 'beets.autotag.match', 'beets.library', 'beets.logging', 'beets.util']
+  Depended on by: ['__main__', 'beets.autotag.hooks', 'beets.autotag.match', 'beets.autotag.mb', 'beets.importer', 'beets.plugins', 'beets.test.helper', 'beets.ui', 'beets.ui.commands']
+beets.library: Fan-In = 11, Fan-Out = 8
+  Depends on: ['beets', 'beets.dbcore', 'beets.dbcore.query', 'beets.dbcore.types', 'beets.logging', 'beets.plugins', 'beets.util', 'beets.util.functemplate']
+  Depended on by: ['__main__', 'beets.autotag', 'beets.autotag.hooks', 'beets.autotag.match', 'beets.dbcore.queryparse', 'beets.importer', 'beets.plugins', 'beets.test._common', 'beets.test.helper', 'beets.ui', 'beets.ui.commands']
+beets.dbcore.query: Fan-In = 7, Fan-Out = 4
+  Depends on: ['beets', 'beets.dbcore', 'beets.dbcore.db', 'beets.util']
+  Depended on by: ['__main__', 'beets.dbcore', 'beets.dbcore.db', 'beets.dbcore.queryparse', 'beets.dbcore.types', 'beets.library', 'beets.ui']
+beets.autotag.hooks: Fan-In = 7, Fan-Out = 7
+  Depends on: ['beets', 'beets.autotag', 'beets.autotag.mb', 'beets.library', 'beets.logging', 'beets.plugins', 'beets.util']
+  Depended on by: ['__main__', 'beets.autotag', 'beets.autotag.match', 'beets.autotag.mb', 'beets.plugins', 'beets.test.helper', 'beets.ui.commands']
+beets.autotag.mb: Fan-In = 3, Fan-Out = 7
+  Depends on: ['beets', 'beets.autotag', 'beets.autotag.hooks', 'beets.logging', 'beets.plugins', 'beets.util', 'beets.util.id_extractors']
+  Depended on by: ['__main__', 'beets.autotag.hooks', 'beets.ui']
+PIL: Fan-In = 4, Fan-Out = 1
+  Depends on: ['PIL']
+  Depended on by: ['PIL', 'PIL.Image', 'PIL.PngImagePlugin', 'beets.util.artresizer']
+beets.util: Fan-In = 20, Fan-Out = 4
+  Depends on: ['beets', 'beets.util', 'beets.util.hidden', 'typing_extensions']
+  Depended on by: ['__main__', 'beets.art', 'beets.autotag', 'beets.autotag.hooks', 'beets.autotag.match', 'beets.autotag.mb', 'beets.dbcore.db', 'beets.dbcore.query', 'beets.dbcore.types', 'beets.importer', 'beets.library', 'beets.plugins', 'beets.test._common', 'beets.test.helper', 'beets.ui', 'beets.ui.commands', 'beets.util', 'beets.util.artresizer', 'beets.util.m3u', 'beets.vfs']
+beets.dbcore.types: Fan-In = 4, Fan-Out = 3
+  Depends on: ['beets', 'beets.dbcore.query', 'beets.util']
+  Depended on by: ['__main__', 'beets.dbcore', 'beets.dbcore.db', 'beets.library']
+beets.importer: Fan-In = 4, Fan-Out = 8
+  Depends on: ['beets', 'beets.autotag', 'beets.dbcore', 'beets.library', 'beets.logging', 'beets.plugins', 'beets.util', 'beets.util.pipeline']
+  Depended on by: ['__main__', 'beets.test._common', 'beets.test.helper', 'beets.ui.commands']
+beets.plugins: Fan-In = 9, Fan-Out = 6
+  Depends on: ['beets', 'beets.autotag', 'beets.autotag.hooks', 'beets.library', 'beets.logging', 'beets.util']
+  Depended on by: ['__main__', 'beets.autotag.hooks', 'beets.autotag.match', 'beets.autotag.mb', 'beets.importer', 'beets.library', 'beets.test.helper', 'beets.ui', 'beets.ui.commands']
+beets: Fan-In = 21, Fan-Out = 0
+  Depends on: []
+  Depended on by: ['__main__', 'beets.art', 'beets.autotag', 'beets.autotag.hooks', 'beets.autotag.match', 'beets.autotag.mb', 'beets.dbcore.db', 'beets.dbcore.query', 'beets.dbcore.queryparse', 'beets.dbcore.types', 'beets.importer', 'beets.library', 'beets.plugins', 'beets.test._common', 'beets.test.helper', 'beets.ui', 'beets.ui.commands', 'beets.util', 'beets.util.artresizer', 'beets.util.m3u', 'beets.vfs']
+beets.dbcore.db: Fan-In = 4, Fan-Out = 6
+  Depends on: ['beets', 'beets.dbcore', 'beets.dbcore.query', 'beets.dbcore.types', 'beets.util', 'beets.util.functemplate']
+  Depended on by: ['__main__', 'beets.dbcore', 'beets.dbcore.query', 'beets.ui']
+beets.ui.commands: Fan-In = 4, Fan-Out = 10
+  Depends on: ['beets', 'beets.autotag', 'beets.autotag.hooks', 'beets.importer', 'beets.library', 'beets.logging', 'beets.plugins', 'beets.ui', 'beets.util', 'beets.util.functemplate']
+  Depended on by: ['__main__', 'beets.test._common', 'beets.test.helper', 'beets.ui']
+beets.logging: Fan-In = 13, Fan-Out = 0
+  Depends on: []
+  Depended on by: ['__main__', 'beets.autotag', 'beets.autotag.hooks', 'beets.autotag.match', 'beets.autotag.mb', 'beets.importer', 'beets.library', 'beets.plugins', 'beets.test._common', 'beets.test.helper', 'beets.ui', 'beets.ui.commands', 'beets.util.artresizer']
+beets.util.artresizer: Fan-In = 2, Fan-Out = 6
+  Depends on: ['PIL', 'PIL.Image', 'PIL.PngImagePlugin', 'beets', 'beets.logging', 'beets.util']
+  Depended on by: ['__main__', 'beets.art']
+beets.dbcore.queryparse: Fan-In = 2, Fan-Out = 4
+  Depends on: ['beets', 'beets.dbcore', 'beets.dbcore.query', 'beets.library']
+  Depended on by: ['__main__', 'beets.dbcore']
+beets.ui: Fan-In = 6, Fan-Out = 13
+  Depends on: ['beets', 'beets.autotag', 'beets.autotag.mb', 'beets.dbcore', 'beets.dbcore.db', 'beets.dbcore.query', 'beets.library', 'beets.logging', 'beets.plugins', 'beets.ui', 'beets.ui.commands', 'beets.util', 'beets.util.functemplate']
+  Depended on by: ['__main__', 'beets.__main__', 'beets.test._common', 'beets.test.helper', 'beets.ui', 'beets.ui.commands']
+__main__: Fan-In = 0, Fan-Out = 32
+  Depends on: ['beets', 'beets.__main__', 'beets.art', 'beets.autotag', 'beets.autotag.hooks', 'beets.autotag.match', 'beets.autotag.mb', 'beets.dbcore', 'beets.dbcore.db', 'beets.dbcore.query', 'beets.dbcore.queryparse', 'beets.dbcore.types', 'beets.importer', 'beets.library', 'beets.logging', 'beets.mediafile', 'beets.plugins', 'beets.random', 'beets.test', 'beets.test._common', 'beets.test.helper', 'beets.ui', 'beets.ui.commands', 'beets.util', 'beets.util.artresizer', 'beets.util.bluelet', 'beets.util.functemplate', 'beets.util.hidden', 'beets.util.id_extractors', 'beets.util.m3u', 'beets.util.pipeline', 'beets.vfs']
+  Depended on by: []
+beets.dbcore: Fan-In = 7, Fan-Out = 4
+  Depends on: ['beets.dbcore.db', 'beets.dbcore.query', 'beets.dbcore.queryparse', 'beets.dbcore.types']
+  Depended on by: ['__main__', 'beets.dbcore.db', 'beets.dbcore.query', 'beets.dbcore.queryparse', 'beets.importer', 'beets.library', 'beets.ui']
+beets.autotag.match: Fan-In = 2, Fan-Out = 8
+  Depends on: ['beets', 'beets.autotag', 'beets.autotag.hooks', 'beets.library', 'beets.logging', 'beets.plugins', 'beets.util', 'numpy']
+  Depended on by: ['__main__', 'beets.autotag']
+
+=== Cyclic Dependencies (Detailed) ===
+PIL
+beets.ui
+beets.util
+numpy
+beets.ui -> beets.ui.commands
+beets.plugins -> beets.autotag -> beets.autotag.hooks -> beets.autotag.mb
+beets.plugins -> beets.autotag -> beets.autotag.hooks -> beets.library
+beets.plugins -> beets.autotag -> beets.autotag.hooks
+beets.plugins -> beets.autotag -> beets.autotag.match -> beets.autotag.hooks -> beets.autotag.mb
+beets.plugins -> beets.autotag -> beets.autotag.match -> beets.autotag.hooks -> beets.library
+beets.plugins -> beets.autotag -> beets.autotag.match -> beets.autotag.hooks
+beets.plugins -> beets.autotag -> beets.autotag.match -> beets.library
+beets.plugins -> beets.autotag -> beets.autotag.match
+beets.plugins -> beets.autotag -> beets.library
+beets.plugins -> beets.autotag.hooks -> beets.autotag -> beets.autotag.match -> beets.library
+beets.plugins -> beets.autotag.hooks -> beets.autotag -> beets.autotag.match
+beets.plugins -> beets.autotag.hooks -> beets.autotag -> beets.library
+beets.plugins -> beets.autotag.hooks -> beets.autotag.mb -> beets.autotag -> beets.autotag.match -> beets.library
+beets.plugins -> beets.autotag.hooks -> beets.autotag.mb -> beets.autotag -> beets.autotag.match
+beets.plugins -> beets.autotag.hooks -> beets.autotag.mb -> beets.autotag -> beets.library
+beets.plugins -> beets.autotag.hooks -> beets.autotag.mb
+beets.plugins -> beets.autotag.hooks -> beets.library
+beets.plugins -> beets.autotag.hooks
+beets.plugins -> beets.library
+beets.autotag.hooks -> beets.autotag
+beets.autotag.hooks -> beets.autotag -> beets.autotag.match
+beets.autotag.hooks -> beets.autotag.mb -> beets.autotag
+beets.autotag.hooks -> beets.autotag.mb -> beets.autotag -> beets.autotag.match
+beets.autotag.hooks -> beets.autotag.mb
+beets.autotag.match -> beets.autotag
+beets.library -> beets.dbcore -> beets.dbcore.queryparse
+beets.library -> beets.dbcore.query -> beets.dbcore -> beets.dbcore.queryparse
+beets.library -> beets.dbcore.query -> beets.dbcore.db -> beets.dbcore -> beets.dbcore.queryparse
+beets.library -> beets.dbcore.types -> beets.dbcore.query -> beets.dbcore -> beets.dbcore.queryparse
+beets.library -> beets.dbcore.types -> beets.dbcore.query -> beets.dbcore.db -> beets.dbcore -> beets.dbcore.queryparse
+beets.dbcore.query -> beets.dbcore -> beets.dbcore.db
+beets.dbcore.query -> beets.dbcore -> beets.dbcore.db -> beets.dbcore.types
+beets.dbcore.query -> beets.dbcore
+beets.dbcore.query -> beets.dbcore -> beets.dbcore.queryparse
+beets.dbcore.query -> beets.dbcore -> beets.dbcore.types
+beets.dbcore.query -> beets.dbcore.db -> beets.dbcore
+beets.dbcore.query -> beets.dbcore.db -> beets.dbcore -> beets.dbcore.queryparse
+beets.dbcore.query -> beets.dbcore.db -> beets.dbcore -> beets.dbcore.types
+beets.dbcore.query -> beets.dbcore.db
+beets.dbcore.query -> beets.dbcore.db -> beets.dbcore.types
+beets.dbcore.queryparse -> beets.dbcore
+beets.dbcore.db -> beets.dbcore
+PIL.Image -> PIL.PngImagePlugin
+
+=== Unused Modules ===
+__main__
+
+=== Disconnected Modules ===
+No disconnected modules found.
+
+=== Dependency Depth Analysis (Detailed) ===
+PIL: Depth = 0
+PIL.Image: Depth = 1
+PIL.PngImagePlugin: Depth = 1
+__main__: Depth = 2
+beets: Depth = 0
+beets.__main__: Depth = 4
+beets.art: Depth = 2
+beets.autotag: Depth = 3
+beets.autotag.hooks: Depth = 3
+beets.autotag.match: Depth = 3
+beets.autotag.mb: Depth = 4
+beets.dbcore: Depth = 6
+beets.dbcore.db: Depth = 7
+beets.dbcore.query: Depth = 7
+beets.dbcore.queryparse: Depth = 5
+beets.dbcore.types: Depth = 8
+beets.importer: Depth = 4
+beets.library: Depth = 4
+beets.logging: Depth = 0
+beets.mediafile: Depth = 0
+beets.plugins: Depth = 3
+beets.random: Depth = 0
+beets.test: Depth = 0
+beets.test._common: Depth = 4
+beets.test.helper: Depth = 3
+beets.ui: Depth = 3
+beets.ui.commands: Depth = 3
+beets.util: Depth = 1
+beets.util.artresizer: Depth = 2
+beets.util.bluelet: Depth = 0
+beets.util.functemplate: Depth = 0
+beets.util.hidden: Depth = 0
+beets.util.id_extractors: Depth = 0
+beets.util.m3u: Depth = 2
+beets.util.pipeline: Depth = 1
+beets.vfs: Depth = 2
+numpy: Depth = 0
+typing_extensions: Depth = 0
+
+Deepest dependency chain starts from: beets.dbcore.types (Depth: 8)
