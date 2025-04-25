@@ -1,0 +1,15 @@
+C:\Users\Chakradhar Basani\dotnet-console-games\Projects\Rock Paper Scissors\bin\Debug\Rock Paper Scissors.exe
+C:\Users\Chakradhar Basani\dotnet-console-games\Projects\Rock Paper Scissors\bin\Debug\Rock Paper Scissors.deps.json
+C:\Users\Chakradhar Basani\dotnet-console-games\Projects\Rock Paper Scissors\bin\Debug\Rock Paper Scissors.runtimeconfig.json
+C:\Users\Chakradhar Basani\dotnet-console-games\Projects\Rock Paper Scissors\bin\Debug\Rock Paper Scissors.dll
+C:\Users\Chakradhar Basani\dotnet-console-games\Projects\Rock Paper Scissors\bin\Debug\Rock Paper Scissors.pdb
+C:\Users\Chakradhar Basani\dotnet-console-games\Projects\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chakradhar Basani\dotnet-console-games\Projects\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.AssemblyInfoInputs.cache
+C:\Users\Chakradhar Basani\dotnet-console-games\Projects\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.AssemblyInfo.cs
+C:\Users\Chakradhar Basani\dotnet-console-games\Projects\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.csproj.CoreCompileInputs.cache
+C:\Users\Chakradhar Basani\dotnet-console-games\Projects\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.sourcelink.json
+C:\Users\Chakradhar Basani\dotnet-console-games\Projects\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.dll
+C:\Users\Chakradhar Basani\dotnet-console-games\Projects\Rock Paper Scissors\obj\Debug\refint\Rock Paper Scissors.dll
+C:\Users\Chakradhar Basani\dotnet-console-games\Projects\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.pdb
+C:\Users\Chakradhar Basani\dotnet-console-games\Projects\Rock Paper Scissors\obj\Debug\Rock Paper Scissors.genruntimeconfig.cache
+C:\Users\Chakradhar Basani\dotnet-console-games\Projects\Rock Paper Scissors\obj\Debug\ref\Rock Paper Scissors.dll

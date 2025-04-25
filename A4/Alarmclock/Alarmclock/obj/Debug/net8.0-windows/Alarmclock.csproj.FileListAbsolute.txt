@@ -1,0 +1,16 @@
+C:\Users\Chakradhar Basani\source\repos\Alarmclock\Alarmclock\bin\Debug\net8.0-windows\Alarmclock.exe
+C:\Users\Chakradhar Basani\source\repos\Alarmclock\Alarmclock\bin\Debug\net8.0-windows\Alarmclock.deps.json
+C:\Users\Chakradhar Basani\source\repos\Alarmclock\Alarmclock\bin\Debug\net8.0-windows\Alarmclock.runtimeconfig.json
+C:\Users\Chakradhar Basani\source\repos\Alarmclock\Alarmclock\bin\Debug\net8.0-windows\Alarmclock.dll
+C:\Users\Chakradhar Basani\source\repos\Alarmclock\Alarmclock\bin\Debug\net8.0-windows\Alarmclock.pdb
+C:\Users\Chakradhar Basani\source\repos\Alarmclock\Alarmclock\obj\Debug\net8.0-windows\Alarmclock.Form1.resources
+C:\Users\Chakradhar Basani\source\repos\Alarmclock\Alarmclock\obj\Debug\net8.0-windows\Alarmclock.csproj.GenerateResource.cache
+C:\Users\Chakradhar Basani\source\repos\Alarmclock\Alarmclock\obj\Debug\net8.0-windows\Alarmclock.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chakradhar Basani\source\repos\Alarmclock\Alarmclock\obj\Debug\net8.0-windows\Alarmclock.AssemblyInfoInputs.cache
+C:\Users\Chakradhar Basani\source\repos\Alarmclock\Alarmclock\obj\Debug\net8.0-windows\Alarmclock.AssemblyInfo.cs
+C:\Users\Chakradhar Basani\source\repos\Alarmclock\Alarmclock\obj\Debug\net8.0-windows\Alarmclock.csproj.CoreCompileInputs.cache
+C:\Users\Chakradhar Basani\source\repos\Alarmclock\Alarmclock\obj\Debug\net8.0-windows\Alarmclock.dll
+C:\Users\Chakradhar Basani\source\repos\Alarmclock\Alarmclock\obj\Debug\net8.0-windows\refint\Alarmclock.dll
+C:\Users\Chakradhar Basani\source\repos\Alarmclock\Alarmclock\obj\Debug\net8.0-windows\Alarmclock.pdb
+C:\Users\Chakradhar Basani\source\repos\Alarmclock\Alarmclock\obj\Debug\net8.0-windows\Alarmclock.genruntimeconfig.cache
+C:\Users\Chakradhar Basani\source\repos\Alarmclock\Alarmclock\obj\Debug\net8.0-windows\ref\Alarmclock.dll

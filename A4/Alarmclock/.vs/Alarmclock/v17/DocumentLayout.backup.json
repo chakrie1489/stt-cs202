@@ -1,0 +1,91 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Chakradhar Basani\\source\\repos\\Alarmclock\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{16548F2E-AE9A-40B5-A14D-0F1FFC19A18D}|Alarmclock\\Alarmclock.csproj|c:\\users\\chakradhar basani\\source\\repos\\alarmclock\\alarmclock\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16548F2E-AE9A-40B5-A14D-0F1FFC19A18D}|Alarmclock\\Alarmclock.csproj|solutionrelative:alarmclock\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16548F2E-AE9A-40B5-A14D-0F1FFC19A18D}|Alarmclock\\Alarmclock.csproj|c:\\users\\chakradhar basani\\source\\repos\\alarmclock\\alarmclock\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16548F2E-AE9A-40B5-A14D-0F1FFC19A18D}|Alarmclock\\Alarmclock.csproj|solutionrelative:alarmclock\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16548F2E-AE9A-40B5-A14D-0F1FFC19A18D}|Alarmclock\\Alarmclock.csproj|c:\\users\\chakradhar basani\\source\\repos\\alarmclock\\alarmclock\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{16548F2E-AE9A-40B5-A14D-0F1FFC19A18D}|Alarmclock\\Alarmclock.csproj|solutionrelative:alarmclock\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{16548F2E-AE9A-40B5-A14D-0F1FFC19A18D}|Alarmclock\\Alarmclock.csproj|c:\\users\\chakradhar basani\\source\\repos\\alarmclock\\alarmclock\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{16548F2E-AE9A-40B5-A14D-0F1FFC19A18D}|Alarmclock\\Alarmclock.csproj|solutionrelative:alarmclock\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Chakradhar Basani\\source\\repos\\Alarmclock\\Alarmclock\\Program.cs",
+              "RelativeDocumentMoniker": "Alarmclock\\Program.cs",
+              "ToolTip": "C:\\Users\\Chakradhar Basani\\source\\repos\\Alarmclock\\Alarmclock\\Program.cs",
+              "RelativeToolTip": "Alarmclock\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T18:19:28.02Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\Chakradhar Basani\\source\\repos\\Alarmclock\\Alarmclock\\Form1.cs",
+              "RelativeDocumentMoniker": "Alarmclock\\Form1.cs",
+              "ToolTip": "C:\\Users\\Chakradhar Basani\\source\\repos\\Alarmclock\\Alarmclock\\Form1.cs",
+              "RelativeToolTip": "Alarmclock\\Form1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T18:17:16.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Chakradhar Basani\\source\\repos\\Alarmclock\\Alarmclock\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "Alarmclock\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\Chakradhar Basani\\source\\repos\\Alarmclock\\Alarmclock\\Form1.Designer.cs",
+              "RelativeToolTip": "Alarmclock\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T18:14:05.253Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chakradhar Basani\\source\\repos\\Alarmclock\\Alarmclock\\Form1.cs",
+              "RelativeDocumentMoniker": "Alarmclock\\Form1.cs",
+              "ToolTip": "C:\\Users\\Chakradhar Basani\\source\\repos\\Alarmclock\\Alarmclock\\Form1.cs [Design]",
+              "RelativeToolTip": "Alarmclock\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-25T18:10:46.15Z",
+              "EditorCaption": " [Design]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

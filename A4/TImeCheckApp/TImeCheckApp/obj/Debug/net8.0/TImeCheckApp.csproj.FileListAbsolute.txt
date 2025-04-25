@@ -1,0 +1,14 @@
+C:\Users\Chakradhar Basani\source\repos\TImeCheckApp\TImeCheckApp\bin\Debug\net8.0\TImeCheckApp.exe
+C:\Users\Chakradhar Basani\source\repos\TImeCheckApp\TImeCheckApp\bin\Debug\net8.0\TImeCheckApp.deps.json
+C:\Users\Chakradhar Basani\source\repos\TImeCheckApp\TImeCheckApp\bin\Debug\net8.0\TImeCheckApp.runtimeconfig.json
+C:\Users\Chakradhar Basani\source\repos\TImeCheckApp\TImeCheckApp\bin\Debug\net8.0\TImeCheckApp.dll
+C:\Users\Chakradhar Basani\source\repos\TImeCheckApp\TImeCheckApp\bin\Debug\net8.0\TImeCheckApp.pdb
+C:\Users\Chakradhar Basani\source\repos\TImeCheckApp\TImeCheckApp\obj\Debug\net8.0\TImeCheckApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Chakradhar Basani\source\repos\TImeCheckApp\TImeCheckApp\obj\Debug\net8.0\TImeCheckApp.AssemblyInfoInputs.cache
+C:\Users\Chakradhar Basani\source\repos\TImeCheckApp\TImeCheckApp\obj\Debug\net8.0\TImeCheckApp.AssemblyInfo.cs
+C:\Users\Chakradhar Basani\source\repos\TImeCheckApp\TImeCheckApp\obj\Debug\net8.0\TImeCheckApp.csproj.CoreCompileInputs.cache
+C:\Users\Chakradhar Basani\source\repos\TImeCheckApp\TImeCheckApp\obj\Debug\net8.0\TImeCheckApp.dll
+C:\Users\Chakradhar Basani\source\repos\TImeCheckApp\TImeCheckApp\obj\Debug\net8.0\refint\TImeCheckApp.dll
+C:\Users\Chakradhar Basani\source\repos\TImeCheckApp\TImeCheckApp\obj\Debug\net8.0\TImeCheckApp.pdb
+C:\Users\Chakradhar Basani\source\repos\TImeCheckApp\TImeCheckApp\obj\Debug\net8.0\TImeCheckApp.genruntimeconfig.cache
+C:\Users\Chakradhar Basani\source\repos\TImeCheckApp\TImeCheckApp\obj\Debug\net8.0\ref\TImeCheckApp.dll
